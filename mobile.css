@@ -1,0 +1,271 @@
+ /*333333333333333333333Mobilet3333333333333333333333333333333333333333*/
+   @media (max-width: 767px) {
+ body{
+           background-color: black;
+       }
+
+    html,
+    body,
+    div,
+    span,
+    applet,
+    object,
+    iframe,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    blockquote,
+    pre,
+    a,
+    abbr,
+    acronym,
+    address,
+    big,
+    cite,
+    code,
+    del,
+    dfn,
+    em,
+    img,
+    ins,
+    kbd,
+    q,
+    s,
+    samp,
+    small,
+    strike,
+    strong,
+    sub,
+    sup,
+    tt,
+    var,
+    b,
+    u,
+    i,
+    center,
+    dl,
+    dt,
+    dd,
+    ol,
+    ul,
+    li,
+    fieldset,
+    form,
+    label,
+    legend,
+    table,
+    caption,
+    tbody,
+    tfoot,
+    thead,
+    tr,
+    th,
+    td,
+    article,
+    aside,
+    canvas,
+    details,
+    embed,
+    figure,
+    figcaption,
+    footer,
+    header,
+    hgroup,
+    menu,
+    nav,
+    output,
+    ruby,
+    section,
+    summary,
+    time,
+    mark,
+    audio,
+    video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+    }
+
+    /* HTML5 display-role reset for older browsers */
+    article,
+    aside,
+    details,
+    figcaption,
+    figure,
+    footer,
+    header,
+    hgroup,
+    menu,
+    nav,
+    section {
+        display: block;
+    }
+
+    body {
+        line-height: 1;
+    }
+
+    ol,
+    ul {
+        list-style: none;
+    }
+
+    blockquote,
+    q {
+        quotes: none;
+    }
+       strong{
+        font-family: Montserrat1;
+       }
+  h1,h2{
+        font-family: Monument;
+       }
+
+    blockquote:before,
+    blockquote:after,
+    q:before,
+    q:after {
+        content: '';
+        content: none;
+    }
+
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+          
+    }
+
+    @font-face{
+        src: url(font/MonumentExtended.ttf);
+          font-family: Monument;
+      }
+       @font-face{
+        src: url(font/Montserrat.ttf);
+          font-family: Montserrat1;
+      }
+       
+       body{
+           margin: 0px;
+           padding: 0px;
+           font-family: Montserrat1;
+           background-color: black;
+       }
+       header{
+           margin: 0px;padding: 0px;
+       }
+       header nav ul{
+           display: flex;flex-wrap: nowrap;margin: 0px;padding: 0px;
+       }
+       header nav ul li{
+           list-style: none;
+         margin: 15px;
+           padding: 0px;color: white;
+           font-size: 16px; font-family: Montserrat1;
+       }
+       .main{
+           color: white;display: flex;flex-wrap:wrap;
+       }
+       h1{
+           font-size: 50px;font-weight: bold;
+       }
+       strong{
+           font-size: 18px;font-weight: lighter;
+       }
+       .main .mainInfo figure{
+           height: 60vh;margin: 10px 0px 32px;overflow: hidden;
+           background-color: transparent;
+       }
+       .mainInfo figure .mainIMG_mobil{
+          height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover; 
+        background-position: center;
+       }
+       section{
+            padding-bottom: 80px;
+       }
+     .mainInfo {
+      padding-bottom: 80px;
+       }
+       .abutmeContent-Cuntainer{
+           position: relative;
+  
+       }
+       h2{
+           font-size: 48px;font-weight: bold;
+       }
+       p1{
+           font-size: 16apx;font-weight: lighter;
+       }
+       
+       .skills-Container{
+           padding-top: 47px;
+       }
+       .skill{
+           width: 70px;height: 70px;
+           background-color: rebeccapurple;
+           margin-top: 24px;
+       }
+       .gallery-main-caontainer{
+        width: 100%;
+       }
+       
+       .gallerircol-1{
+           width: 100%;
+           display: flex;margin: auto;
+       }
+          .gallerircol-2{
+           width: 100%;
+         margin: auto;
+       }
+       .gallerircol-1 figure{
+           width: 100%;
+           margin:10px auto ;overflow: hidden;padding: 0px;
+         
+       }
+       
+       .gallerircol-2 figure{
+           width: 100%;
+           margin:10px auto ;overflow: hidden;padding: 0px;
+         
+       }
+       
+       .box img{
+           height: 100%;
+              background-repeat: no-repeat;
+        background-size: cover; 
+        background-position: center;
+       }
+       .box1{
+           height: 350px;
+       }
+       
+       .box2{
+           height: 250px;
+       }
+       
+      
+       
+       .box3{
+           height: 350px;
+       }
+       
+       .box4{
+           height: 250px;
+       }
+}
